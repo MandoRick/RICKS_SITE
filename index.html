@@ -44,7 +44,19 @@
 </head>
 <body>
   <div class="container">
-    <img class="image" src="https://github.com/MandoRick/Ricks_Site/blob/main/lightPanel.png?raw=true" alt="Your Image">
+    <!-- SVG image -->
+    <svg class="image" viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+      <!-- Include your SVG content here -->
+      <!-- Example content: -->
+      <rect x="0" y="0" width="1000" height="800" fill="url(#background)" />
+      <defs>
+        <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+          <stop offset="100%" style="stop-color:rgb(200,200,200);stop-opacity:1" />
+        </linearGradient>
+      </defs>
+    </svg>
+
     <!-- Example squares with inline color styles -->
     <div class="square0" style="left: 5%; top: 20%; background-color: grey;"></div>
     <div class="square1" style="left: 15%; top: 25%; background-color: red;"></div>
